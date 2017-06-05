@@ -1,0 +1,45 @@
+body{
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.71429;
+	font-family: 'Montserrat', sans-serif;;
+}
+
+/*Contenedor Flexbox*/
+.flex-container{
+	display: flex;
+}
+
+/*Menú*/
+
+.menu{
+	background-color: #190426;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%
+
+}
+
+
+.menu.flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container {
+	margin-right: auto;
+	margin-left: 30px;
+
+}
+ .logo{
+	padding: 10px;
+	width: 60px;
+	
+}
+
+.menu a{
+	display: inline-block;
+	padding: 20px;
+	text-decoration: none;
+	color: white;
+}
