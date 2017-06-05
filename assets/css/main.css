@@ -43,3 +43,13 @@ body{
 	text-decoration: none;
 	color: white;
 }
+
+.button {
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    }
