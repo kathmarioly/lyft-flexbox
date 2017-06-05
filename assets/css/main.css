@@ -52,4 +52,29 @@ body{
     text-decoration: none;
     display: inline-block;
 
-    }
+}
+
+
+#home{
+	background-image: url(../img-lyft/lyft-amp-illo-1200x630.png);
+
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+
+	justify-content: center;/*Se posicionan justo en el centro de la sección, en ambos ejes.*/
+	align-items: center; /*Se posicionan justo en el centro de la sección, en ambos ejes.*/
+	
+	flex-direction: column; /*Desplegar en forma vertical*/
+
+	color: whitesmoke;
+
+
+}
+
+#home .caja{
+
+background-color: white;
+}
+
