@@ -140,3 +140,22 @@ body{
 	margin-left: auto;
 	margin-right: 30px;
 }
+
+
+.texto-watch{
+	padding: 20px 50px;
+	margin-left: 65px;
+	width: 400px;
+}
+.texto-watch h3 p{
+	font-size: 37px;
+	font-weight: 400;
+	margin: 0;
+	padding: 3px;
+	line-height: 1.0;
+	}
+#you{
+	margin-top: 43px;
+	max-width: 100%;
+	width: 800%;
+}
