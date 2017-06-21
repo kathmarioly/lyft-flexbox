@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto" rel="stylesheet"> 
 	<title>Lyft-flexbox</title>
 	<!--Vinculación CSS: common-->
 	<link rel="stylesheet" type="text/css" href="assets/css/common.css">
@@ -10,7 +12,7 @@
 	<!--tipografía-->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<!--icon-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -20,27 +22,56 @@
 			<img src="assets//img-lyft/logo-white.png"  class="logo" alt="Logo" width="70" >
 		</div>
 		<a href="#" class="text link">Drive</a>
-
-
-		<a href="#" class="text link">Explore<div>
-			<a href="#" class="text link">Airports</a>
-		</div></a>
+		<a href="#" class="text link">Explore</a>
+		<a href="#" class="text link">Airports</a>
 		<a href="#" class="text link">Help</a>
-		<a href="#" class="button">Login</a>
-			
+		<button id="login">Log ing</button>
+		<button id="signUp">Sign up</button>
+
 	</nav>
-<header>
-<!--Home-->
+
+
+	<!--Home-->
 	<section id="home" class="flex-container">
-		<div id="caja">
-		<h1>TURN MILES INTO MONEY</h1>
-		<h3 class="text-uppercase text-home mb-0">sign up to drive white lift.</h3>
-		<input type="Phone Number" name="numero" value="Phone number">
+		<video id="video" autoplay="true" loop>
+			<source src="assets/img-lyft/hero-video.mp4" type="video/mp4">
+			</video>
+
+			<div class="caja-texto flex-container">
+				<h1>TURN MILES INTO MONEY</h1>
+				<h3 class="text-uppercase text-home mb-0">sign up to drive white lift.</h3>
+				<input id="phoneNum" type="text" placeholder="Phone Number" class="inputOne">
+				<div class="enlaces">
+
+					<button id="become">Become a driver</button>
+					<a href="#">Sign up to ride</a>
+				</div>
+				<div>
+					<p>Already applied?<a href="#"> Check the status of your applicationhere</a></p><a href="#">Learn more</a></p>
+				</div>
+			</div>
+			</section>
+
+	<!--información-->		
+
+	<section id="ride-minutes" class="flex-container information">
+		<div class="texto-ride">
+			<h3>A RIDE IN MINUTES</h3>
+			<p>Request a ride and you'll be on your way in munutes.</p>
+			<p>Request. Ride. Repeat.</p>
+			<br>
+			<h3>SERIOUS ABOUT SAFETY</h3>
+			<p>From knowing the color of your driver's car to our 24/7 Trust and Safety Team, we got you</p>
+			<br>
+			<h3>HAPPY DRIVERS</h3>
+			<h3>HAPPY RIDERS</h3>
+			<p>Ride with us and you'll see why 9 out of 10 rides end with five stars.</p>
 		</div>
+		<img src="assets/img-lyft/phone.png" alt="phoneImage">
 	</section>
 
 
-</header>
-	<script type="text/javascript" src="assets/js/app.js"></script>
-</body>
-</html>
+
+			<script type="text/javascript" src="assets/js/app.js"></script>
+		</body>
+		</html>

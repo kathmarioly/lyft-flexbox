@@ -2,7 +2,8 @@ body{
 	margin: 0 auto;
 	font-size: 16px;
 	line-height: 1.71429;
-	font-family: 'Montserrat', sans-serif;;
+	font-family: 'Montserrat', sans-serif;
+
 }
 
 /*Contenedor Flexbox*/
@@ -31,7 +32,7 @@ body{
 	margin-left: 30px;
 
 }
- .logo{
+.logo{
 	padding: 10px;
 	width: 60px;
 	
@@ -45,36 +46,97 @@ body{
 }
 
 .button {
-    border-style: solid;
-    border-width: 1px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
+	border-style: solid;
+	border-width: 1px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
 
 }
+#signUp{
+	display: none;
+}
 
+#login{
+	background: transparent;
+	color: white;
+	border: 1px solid #ff3385;
+	padding: 1px 10px;
+	
+}
+
+.caja-texto{
+	width: 450px;
+	height: auto;
+	background-color: white;
+	margin-left: auto;
+	margin-top: 165px;
+	flex-direction: column;
+	color: #190426;
+	padding: 30px;
+}
+.caja-texto h1{
+	font-size: 40px;
+	font-weight: 600;
+	margin: 0;
+	padding: 0;
+	line-height: 1.1;
+	color: #352384; /*azul*/
+}
 
 #home{
-	background-image: url(../img-lyft/lyft-amp-illo-1200x630.png);
-
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-
-
-	justify-content: center;/*Se posicionan justo en el centro de la sección, en ambos ejes.*/
-	align-items: center; /*Se posicionan justo en el centro de la sección, en ambos ejes.*/
+	padding-bottom: 100px;
+}
+#video{
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	position: absolute;
+	width: 100%;
+	height: auto;
 	
-	flex-direction: column; /*Desplegar en forma vertical*/
+}
 
-	color: whitesmoke;
-
+#become{
+	background-color: #ff00bf;
+	border-radius: 7px;
+	padding: 10px;
+	margin-top: 20px;
+	color: white;
+}
+.caja-texto h3{
+	color: #352384;
 
 }
 
-#home .caja{
+#become a{
+	margin-left: 15px;
 
-background-color: white;
 }
 
+#ride-minutes{
+	background: linear-gradient(#76278f,#2b1E66);
+	color: white;
+	justify-content: space-around;
+	align-items: center;
+
+}
+.texto-ride{
+	padding: 20px 50px;
+	margin-left: 65px;
+}
+.texto-ride h2{
+	font-size: 37px;
+	font-weight: 400;
+	margin: 0;
+	padding: 3px;
+	line-height: 1.0;
+}
+#ride-minutes img{
+	width: 40%;
+	height: 40%;
+	padding: 50px;
+	margin-left: auto;
+	margin-right: 30px;
+}
