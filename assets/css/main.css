@@ -146,6 +146,7 @@ body{
 	padding: 20px 50px;
 	margin-left: 65px;
 	width: 400px;
+	margin-top: 143px;
 }
 .texto-watch h3 p{
 	font-size: 37px;
@@ -156,6 +157,34 @@ body{
 	}
 #you{
 	margin-top: 43px;
-	max-width: 100%;
-	width: 800%;
+	width: 240%;
+	height: 120%;
+}
+
+.links{
+	padding: 25px;
+	margin-top: 118px;
+	background-color: #0e0e25;
+	color: white;
+}
+
+.login a {
+	font-size: 11px;
+	display: block;
+	color: whitesmoke;
+	margin: 10px 130px;
+
+}
+.login h3{
+	margin: 10px 128px;
+
+}
+
+.links.logos{
+	margin-top: 150px;
+}
+
+.icon {
+	color: white;
+	text-align:center;
 }
